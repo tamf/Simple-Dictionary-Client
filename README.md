@@ -6,21 +6,13 @@ Commands:
 
 
 1. open $server $port
-
 2. dict
-
 3. set $dictionary
-
 4. currdict
-
 5. define $word
-
 6. match $word 
-
 7. prefixmatch $word
-
 8. close
-
 9. quit
 
 
