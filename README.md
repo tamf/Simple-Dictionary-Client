@@ -5,22 +5,36 @@ Implemention of a dictionary client in Java to retrieve definitions from a dicti
 Commands:
 
 
-open $server $port    -   dictionary server name is either domain name or IP address in dotted form. $port is optional, default 2628
+1. open $server $port
 
-dict                  -   retrieve and show the list of all dictionaries the server supports
+2. dict
 
-set $dictionary       -   set the current dictionary
+3. set $dictionary
 
-currdict              -   prints name of current dictionary, initially "*"
+4. currdict
 
-define $word          -   retrieve and prints all definitions for given word in the current dictionary
+5. define $word
 
-match $word           -   retrieve and print all exact matches for given word
+6. match $word 
 
-prefixmatch $word     -   same as above but prefix matching
+7. prefixmatch $word
 
-close                 -   closes connection to dict server
+8. close
 
-quit                  -   closes connection to dict server and exits program
+9. quit
+
+
+Description of commands:
+
+1. dictionary server name is either domain name or IP address in dotted form. $port is optional, default 2628
+2. retrieve and show the list of all dictionaries the server supports
+3. set the current dictionary
+4. prints name of current dictionary, initially "*"
+5. retrieve and prints all definitions for given word in the current dictionary
+6. retrieve and print all exact matches for given word
+7. same as above but prefix matching
+8. closes connection to dict server
+9. closes connection to dict server and exits program
+
 
 
