@@ -1,6 +1,6 @@
 # Simple-Dictionary-Client
 
-Implemention of a dictionary client in Java to retrieve definitions from a dictionary server using application-level protocol as per RFC 2229. 
+Implemention of a dictionary client in Java to retrieve definitions from a dictionary server using application-level protocol as per RFC 2229. Written with project partner Sisi Guo.
 
 Commands:
 
